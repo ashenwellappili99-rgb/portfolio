@@ -1,4 +1,4 @@
-/* ================= ROOT VARIABLES (LIGHT MODE) ================= */
+/* ================= ROOT (LIGHT MODE) ================= */
 :root {
     --text-color: #000;
     --bg-color: #fff;
@@ -10,13 +10,9 @@
     --sub-text: #6b7280;
     --footer-bg: #f9fafb;
 
-    /* FIXED MISSING VARIABLES */
+    /* FIXED VARIABLES */
     --box-shadow: rgba(0,0,0,0.1);
     --input-border: #e5e7eb;
-    --timeline-bg-1: #ffffff;
-    --timeline-bg-2: #f3f4f6;
-    --dot-bg: #ffffff;
-    --dot-border: #d1d5db;
 }
 
 /* ================= DARK MODE ================= */
@@ -33,22 +29,14 @@ body.dark-mode {
 
     --box-shadow: rgba(0,0,0,0.3);
     --input-border: #4b5563;
-    --timeline-bg-1: #374151;
-    --timeline-bg-2: #1e293b;
-    --dot-bg: #374151;
-    --dot-border: #4b5563;
 }
 
-/* ================= GLOBAL RESET ================= */
+/* ================= RESET ================= */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-}
-
-/* Smooth transitions everywhere */
-* {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -73,15 +61,8 @@ body {
     left: 0;
     right: 0;
     background: var(--nav-bg);
-    z-index: 1000;
     box-shadow: 0 2px 10px var(--box-shadow);
-}
-
-.navbar .left a {
-    text-decoration: none;
-    color: var(--text-color);
-    font-weight: 700;
-    font-size: 1.5rem;
+    z-index: 1000;
 }
 
 /* ================= HERO ================= */
@@ -90,16 +71,6 @@ body {
     align-items: center;
     padding: 40px 50px;
     gap: 40px;
-}
-
-.hero-section .text-side h2 {
-    font-size: 45px;
-    margin-bottom: 12px;
-}
-
-.hero-section .text-side p {
-    color: var(--sub-text);
-    line-height: 1.7;
 }
 
 /* ================= SKILLS ================= */
@@ -123,14 +94,28 @@ body {
 /* ================= EDUCATION ================= */
 .education-section {
     padding: 60px 50px;
-    background: var(--timeline-bg-2);
+    background: var(--section-alt-bg);
     border-radius: 20px;
 }
 
 .timeline-content {
-    background: var(--timeline-bg-1);
+    background: var(--card-bg);
     padding: 25px;
     border-radius: 12px;
+    box-shadow: 0 5px 20px var(--box-shadow);
+}
+
+/* FIX TEXT COLORS */
+.timeline-content p {
+    color: var(--sub-text);
+}
+
+/* STATUS FIX */
+.status, .date {
+    background: var(--section-alt-bg);
+    color: var(--primary-blue);
+    padding: 6px 12px;
+    border-radius: 20px;
 }
 
 /* ================= PROJECTS ================= */
@@ -143,6 +128,14 @@ body {
     background: var(--card-bg);
     padding: 30px;
     border-radius: 15px;
+}
+
+/* TAG FIX */
+.tags span {
+    background: var(--section-alt-bg);
+    color: var(--primary-blue);
+    padding: 5px 12px;
+    border-radius: 20px;
 }
 
 /* ================= CONTACT ================= */
@@ -158,6 +151,7 @@ body {
     border: 1px solid var(--input-border);
     background: var(--card-bg);
     color: var(--text-color);
+    border-radius: 6px;
 }
 
 /* ================= FOOTER ================= */
