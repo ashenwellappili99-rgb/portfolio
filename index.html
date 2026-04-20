@@ -2,19 +2,17 @@
 <html lang="en">
 
 <head>
- 
-    <link rel="stylesheet" href="portfolio.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Ashen Wellappili</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+
     <link rel="stylesheet" href="portfolio.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
-       <script src="./portfolio.js"></script>
     <nav class="navbar">
         <div class="left"><a href="#">Ashen.AI</a></div>
         <!-- Middle section: Navigation page links for section scrolling -->
@@ -26,10 +24,10 @@
             <a href="#contact">Contact Me</a>
         </div>
         <div class="right">
-    
-           <button id="themeToggle">
-    <i id="themeIcon" class="fa fa-moon"></i>
-</button>
+            <!-- Theme Toggle Button configured for Dark Mode -->
+            <button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode">
+                <i class="fas fa-moon"></i>
+            </button>
             <a href="https://github.com/ashenwellappili99-rgb"><i class="fab fa-github"></i> <span>GitHub</span></a>
             <a href="mailto:ashenwellappili99@gmail.com" class="cta-btn"><i class="fab fa-google"></i> <span>Gmail</span></a>
         </div>
@@ -38,7 +36,6 @@
     <main>
         <section id="hero" class="hero-section">
             <div class="text-side">
-                
                 <h2>Hi, I'm Ashen 👋</h2>
                 <p>I am an undergraduate IT student specializing in Artificial Intelligence, committed to building a
                     strong foundation in Python and Machine Learning.
@@ -67,11 +64,9 @@
                 </div>
                 <div class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
                         alt="HTML5"><span>html</span></div>
-
+            </div>
         </section>
 
-
-        <!-- time line -->
         <section id="education" class="education-section">
             <h2>Academic Journey</h2>
             <div class="timeline">
@@ -98,6 +93,16 @@
                             2026</p>
                         <p>Foundation in C, C++ and Logic Design.</p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Coming Soon</h3>
+                    <p>I am actively working on new projects. Stay tuned!</p>
                 </div>
             </div>
         </section>
@@ -134,6 +139,8 @@
         <p>&copy; 2026 Ashen Wellappili </p>
     </footer>
 
+    <!-- Script that handles toggling Dark Mode and storing the preference -->
+    <script src="portfolio.js"></script>
 </body>
-<script src="./portfolio.js"></script>
+
 </html>
