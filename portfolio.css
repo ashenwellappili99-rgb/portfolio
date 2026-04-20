@@ -44,6 +44,14 @@ body.dark-mode {
 }
 
 body {
+    background-color: white;
+    color: black;
+
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
     max-width: 1200px;
     margin: 0 auto;
     color: var(--text-color);
