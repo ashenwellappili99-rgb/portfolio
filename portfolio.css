@@ -326,7 +326,7 @@ body {
 .timeline-item.completed .timeline-dot {
     background: #eef6ff;
     border-color: var(--primary-blue);
-    color: var(--text-color);
+    color: var(#000000);
 }
 
 .timeline-content {
@@ -373,7 +373,7 @@ body {
 .status, .date {
     font-size: 0.85rem;
     background: #eef6ff;
-    color: black; /*changed*/
+    color: #000000; /*changed*/
     display: inline-flex;
     align-items: center;
     padding: 6px 14px;
