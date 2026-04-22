@@ -113,7 +113,7 @@ body {
     color: var(--primary-blue);
 }
 
-/* Styles for the recently added Dark Mode Toggle button */
+/*  Dark Mode Toggle button */
 .theme-btn {
     background: transparent;
     border: none;
@@ -364,7 +364,7 @@ body {
 }
 
 .specialization {
-    color: var(--primary-blue);
+    color:#5eaad5 ; /*changed color*/
     font-weight: 600;
     font-size: 0.95rem;
     margin-bottom: 8px;
