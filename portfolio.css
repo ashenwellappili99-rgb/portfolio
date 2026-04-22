@@ -383,7 +383,7 @@ body {
 }
 
 .timeline-content p {
-    color: #5eaad5;
+    color: #000000;/*#5eaad5 chenged*/
     line-height: 1.6;
 }
 
