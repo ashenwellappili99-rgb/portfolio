@@ -1,5 +1,4 @@
-/* ===== CSS VARIABLES FOR THEMING ===== */
-/* Light Mode defined properties (Base styling) */
+
 :root {
     --text-color: #333;
     --primary-blue: #007bff;
@@ -19,7 +18,7 @@
     --box-shadow: rgba(0,0,0,0.05);
 }
 
-/* Dark Mode defined properties (These apply when .dark-mode is toggled) */
+
 body.dark-mode {
     --text-color: #f3f4f6;
     --primary-blue: #3b82f6;
@@ -131,7 +130,7 @@ body {
     color: var(--primary-blue);
 }
 
-/* ===== HERO SECTION ===== */
+/*  HERO SECTION */
 .hero-section {
     display: flex;
     align-items: center;
@@ -174,7 +173,7 @@ body {
     object-fit: cover;
 }
 
-/* ===== BUTTONS ===== */
+/*  BUTTONS */
 .btn {
     display: inline-block;
     padding: 10px 22px;
@@ -244,7 +243,7 @@ body {
     color: var(--text-color);
 }
 
-/* ===== EDUCATION / TIMELINE ===== */
+/*  EDUCATION */
 .education-section {
     padding: 60px 50px;
     background: var(--timeline-bg-2);
@@ -327,7 +326,7 @@ body {
 .timeline-item.completed .timeline-dot {
     background: #eef6ff;
     border-color: var(--primary-blue);
-    color: var(--primary-blue);
+    color: var(--text-color);
 }
 
 .timeline-content {
@@ -374,7 +373,7 @@ body {
 .status, .date {
     font-size: 0.85rem;
     background: #eef6ff;
-    color: #0056b3;
+    color: black; /*changed*/
     display: inline-flex;
     align-items: center;
     padding: 6px 14px;
