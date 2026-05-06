@@ -23,6 +23,14 @@
             <a href="#projects">Project</a>
             <a href="#contact">Contact Me</a>
         </div>
+        
+        <!-- Search Bar -->
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search portfolio..." class="search-input">
+            <button id="search-btn" class="search-btn"><i class="fas fa-search"></i></button>
+            <button id="clear-search-btn" class="clear-search-btn" style="display: none;"><i class="fas fa-times"></i></button>
+        </div>
+        
         <div class="right">
             <!-- Theme Toggle Button configured for Dark Mode -->
             <button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode">
@@ -32,6 +40,15 @@
             <a href="mailto:ashenwellappili99@gmail.com" class="cta-btn"><i class="fab fa-google"></i> <span>Gmail</span></a>
         </div>
     </nav>
+
+    <!-- Search Results Container -->
+    <div id="search-results" class="search-results" style="display: none;">
+        <div class="search-results-header">
+            <h3>Search Results</h3>
+            <button id="close-results" class="close-results"><i class="fas fa-times"></i></button>
+        </div>
+        <div id="search-results-content" class="search-results-content"></div>
+    </div>
 
     <main>
         <section id="hero" class="hero-section">
