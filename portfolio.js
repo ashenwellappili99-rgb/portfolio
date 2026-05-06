@@ -143,6 +143,20 @@ function scrollToSection(sectionId) {
     const section = document.getElementById(sectionId);
     if (section) {
         section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        
+        // Remove any existing highlight from all sections
+        document.querySelectorAll('.highlight-section').forEach(el => {
+            el.classList.remove('highlight-section');
+        });
+        
+        // Add highlight class to the target section
+        section.classList.add('highlight-section');
+        
+        // Remove the highlight after 2 seconds
+        setTimeout(() => {
+            section.classList.remove('highlight-section');
+        }, 2000);
+
         searchResults.style.display = 'none';
         searchInput.value = '';
         clearSearchBtn.style.display = 'none';
@@ -176,4 +190,57 @@ document.addEventListener('click', (e) => {
         !e.target.closest('.search-results')) {
         searchResults.style.display = 'none';
     }
+});
+
+// ===== ACTIVE NAV LINK ON SCROLL =====
+const navPageLinks = document.querySelectorAll('.nav-page-link');
+const sections = ['hero', 'skills', 'education', 'contact'].map(id => document.getElementById(id));
+
+// Use IntersectionObserver to detect which section is visible
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // Remove active from all nav links
+            navPageLinks.forEach(link => link.classList.remove('active'));
+            // Add active to the matching link
+            const activeLink = document.querySelector(`.nav-page-link[href="#${entry.target.id}"]`);
+            if (activeLink) activeLink.classList.add('active');
+        }
+    });
+}, { threshold: 0.35 }); // Trigger when 35% of section is visible
+
+sections.forEach(section => { if (section) observer.observe(section); });
+
+// ===== SCROLL ANIMATIONS =====
+const fadeSections = document.querySelectorAll('.fade-in-section');
+const fadeObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+        } else {
+            // Optional: Remove if you want them to fade out when scrolling away
+            entry.target.classList.remove('is-visible');
+        }
+    });
+}, { threshold: 0.15 });
+
+fadeSections.forEach(section => {
+    if (section) fadeObserver.observe(section);
+});
+
+// ===== MOBILE MENU =====
+const mobileMenuToggle = document.getElementById('mobile-menu');
+const navLinksContainer = document.querySelector('.nav-links');
+
+if (mobileMenuToggle) {
+    mobileMenuToggle.addEventListener('click', () => {
+        navLinksContainer.classList.toggle('mobile-active');
+    });
+}
+
+// Close mobile menu when a link is clicked
+navPageLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        navLinksContainer.classList.remove('mobile-active');
+    });
 });
