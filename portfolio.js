@@ -39,34 +39,47 @@ const searchableContent = [
     {
         id: 'hero',
         title: 'About Me',
-        content: 'Hi, I\'m Ashen. Undergraduate IT student specializing in Artificial Intelligence. Python, Machine Learning, learning',
+        category: 'Profile',
+        content: 'Hi, I\'m Ashen. Undergraduate IT student specializing in Artificial Intelligence. Python, Machine Learning, learning, web development, coding, programming, developer, engineer',
         preview: 'Ashen - Undergraduate IT student specializing in Artificial Intelligence...'
     },
     {
         id: 'skills',
         title: 'Technical Skills',
-        content: 'Python, C++, HTML, Programming Languages',
+        category: 'Skills',
+        content: 'Python, C++, HTML, Programming Languages, coding, development, web, frontend, backend, languages, frameworks, tools',
         preview: 'Python, C++, HTML and other technical skills'
     },
     {
         id: 'education',
         title: 'Academic Journey',
-        content: 'BSc Information Technology, Artificial Intelligence, Web Application Development, Advanced Python Programming, Semester 1, Semester 2, Logic Design, C, C++',
+        category: 'Education',
+        content: 'BSc Information Technology, Artificial Intelligence, Web Application Development, Advanced Python Programming, Semester 1, Semester 2, Logic Design, C, C++, university, degree, coursework, learning',
         preview: 'BSc (Hons) in Information Technology with specialization in AI...'
     },
     {
         id: 'projects',
         title: 'Projects',
-        content: 'Coming Soon, Projects, Portfolio projects',
+        category: 'Work',
+        content: 'Coming Soon, Projects, Portfolio projects, work, portfolio, applications, building, development, hands-on',
         preview: 'I am actively working on new projects. Stay tuned!'
     },
     {
         id: 'contact',
         title: 'Contact Me',
-        content: 'Get In Touch, Gmail, GitHub, LinkedIn, Email, Contact Information, ashenwellappili99@gmail.com',
+        category: 'Contact',
+        content: 'Get In Touch, Gmail, GitHub, LinkedIn, Email, Contact Information, ashenwellappili99@gmail.com, reach out, connect, social media, networking',
         preview: 'Contact information and social links'
     }
 ];
+
+// Function to highlight matching keywords
+function highlightKeywords(text, query) {
+    if (!query || query.length === 0) return text;
+    
+    const regex = new RegExp(`(${query})`, 'gi');
+    return text.replace(regex, '<mark>$1</mark>');
+}
 
 // Function to perform search
 function performSearch() {
@@ -104,10 +117,19 @@ function displayResults(results, query) {
     
     let resultsHTML = '';
     results.forEach(result => {
+        const highlightedPreview = highlightKeywords(result.preview, query);
+        const highlightedTitle = highlightKeywords(result.title, query);
+        
         resultsHTML += `
             <div class="search-result-item" onclick="scrollToSection('${result.id}')">
-                <div class="search-result-title"><i class="fas fa-map-marker-alt" style="margin-right: 8px; color: var(--primary-blue);"></i>${result.title}</div>
-                <div class="search-result-preview">${result.preview}</div>
+                <div class="search-result-header">
+                    <div class="search-result-title">
+                        <i class="fas fa-map-marker-alt" style="margin-right: 8px; color: var(--primary-blue);"></i>
+                        ${highlightedTitle}
+                    </div>
+                    <span class="search-result-category">${result.category}</span>
+                </div>
+                <div class="search-result-preview">${highlightedPreview}</div>
             </div>
         `;
     });
