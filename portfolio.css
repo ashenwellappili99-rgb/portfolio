@@ -22,7 +22,9 @@ body {
     color: var(--text-color);
 }
 
-.navbar, main, .contact-section {
+.navbar,
+main,
+.contact-section {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -556,7 +558,8 @@ body.dark-mode .navbar {
         font-size: 24px;
         cursor: pointer;
         color: var(--text-color);
-        order: -1; /* Keep it on the left if desired, or let it naturally flow */
+        order: -1;
+        /* Keep it on the left if desired, or let it naturally flow */
     }
 
     .nav-links {
