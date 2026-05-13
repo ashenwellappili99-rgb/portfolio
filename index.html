@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="portfolio.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Ashen Wellappili</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Login Overlay -->
+    <div id="login-overlay" class="login-overlay">
+        <div class="login-box">
+            <h2>Welcome Back</h2>
+            <form id="login-form">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </div>
+    <nav class="navbar">
+        <!-- Hamburger Menu -->
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <!-- Page navigation links -->
+        <div class="nav-links">
+            <a href="#hero" class="nav-page-link">About</a>
+            <a href="#skills" class="nav-page-link">Skills</a>
+            <a href="#education" class="nav-page-link">Academic</a>
+            <a href="#contact" class="nav-page-link">Contact</a>
+            <a href="#" id="nav-login-btn" class="nav-page-link">Login</a>
+        </div>
+        <!-- Search & theme toggle -->
+        <div class="navbar-center">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search my portfolio...">
+                <button id="search-btn" aria-label="Search"><i class="fas fa-search"></i></button>
+                <button id="clear-search-btn" style="display: none;" aria-label="Clear"><i
+                        class="fas fa-times"></i></button>
+                <div id="search-results" class="search-results" style="display: none;">
+                    <div class="search-results-header">
+                        <span>Search Results</span>
+                        <button id="close-results" aria-label="Close"><i class="fas fa-times"></i></button>
+                    </div>
+                    <div id="search-results-content" class="search-results-content"></div>
+                </div>
+            </div>
+            <button id="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main>
+        <section id="hero" class="hero-section fade-in-section is-visible">
+            <div class="text-side">
+                <h2>Hi, I'm Ashen 👋</h2>
+                <p>I am an undergraduate IT student specializing in Artificial Intelligence, committed to building a
+                    strong foundation in Python and Machine Learning.
+                    I follow a structured and logical approach to learning, steadily developing my skills through
+                    consistent practice and small hands-on projects.</p>
+            </div>
+            <div class="image-side">
+                <img src="portfolio.jpg" alt="Headshot">
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section fade-in-section">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-python skill-icon"></i>
+                    <span>Python</span>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon-text">C++</span>
+                    <span>C++</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-html5 skill-icon"></i>
+                    <span>HTML</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- projects -->
+        <section id="projects" class="projects-section fade-in-section">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Python Automation Tool</h3>
+                    <p>A script developed to automate data processing tasks, improving efficiency by 40%.</p>
+                    <div class="tags"><span>Python</span> <span>Automation</span></div>
+                </div>
+                <div class="project-card">
+                    <h3>C++ Performance System</h3>
+                    <p>A high-performance backend module focused on memory management and speed.</p>
+                    <div class="tags"><span>C++</span> <span>Algorithms</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- timeline -->
+        <section id="education" class="education-section fade-in-section">
+            <h2>Academic Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item active">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>BSc (Hons) in Information Technology</h3>
+                        <p class="specialization">Specializing in Artificial Intelligence</p>
+                        <p class="status">Current: Year 1, Semester 2 (2026)</p>
+                        <ul>
+                            <li>Web Application Development</li>
+                            <li>Advanced Python Programming</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item completed">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Year 1, Semester 1</h3>
+                        <p class="date">Completed: Feb 2026</p>
+                        <p>Foundation in C, C++ and Logic Design.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="contact-section fade-in-section">
+        <h2>Get In Touch</h2>
+        <p>Currently leveling up my skills in Python and AI, following a structured and logical learning path.
+            I am actively working on small beginner projects to turn my knowledge into real, hands-on experience.</p>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ashenwellappili99@gmail.com"
+                        target="_blank">ashenwellappili99@gmail.com</a>
+                </div>
+                <div class="info-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/ashen-wellappili-b0478538a" target="_blank">LinkedIn</a>
+                </div>
+                <div class="info-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/ashenwellappili99-rgb" target="_blank">GitHub</a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <!-- Map container displaying Matara, Sri Lanka -->
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63480.83770335606!2d80.511105!3d5.949635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae1391d3a0a1f9d%3A0x29673448db1bc908!2sMatara!5e0!3m2!1sen!2slk!4v1715504780000!5m2!1sen!2slk"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <p class="footer-name">&copy; 2026 Ashen Wellappili</p>
+        </div>
+    </footer>
+
+    <!-- ===== CHATBOT WIDGET ===== -->
+    <!-- Floating chatbot assistant with quick replies and text input -->
+    <div id="chatbot-widget" class="chatbot-widget">
+        <!-- Toggle button to open/close chat -->
+        <button id="chatbot-toggle" class="chatbot-toggle" aria-label="Open Chat">
+            <i class="fas fa-comments"></i>
+        </button>
+        <!-- Main chat window -->
+        <div id="chatbot-window" class="chatbot-window">
+            <div class="chatbot-header">
+                <div class="bot-info">
+                    <div class="bot-status"></div>
+                    <h3>AI Assistant</h3>
+                </div>
+                <button id="chatbot-close" aria-label="Close Chat"><i class="fas fa-times"></i></button>
+            </div>
+            <!-- Message display area -->
+            <div id="chatbot-messages" class="chatbot-messages">
+                <div class="message bot-message">
+                    Hello! 👋 I'm Ashen's virtual assistant. How can I help you today?
+                </div>
+            </div>
+            <!-- Pre-defined quick reply buttons -->
+            <div class="chatbot-quick-replies">
+                <button class="quick-reply" data-question="skills">Skills</button>
+                <button class="quick-reply" data-question="projects">Projects</button>
+                <button class="quick-reply" data-question="expertise">Expertise</button>
+                <button class="quick-reply" data-question="academic">Academic</button>
+                <button class="quick-reply" data-question="freelance">Freelance</button>
+                <button class="quick-reply" data-question="contact">Contact</button>
+            </div>
+            <!-- User input field and send button -->
+            <div class="chatbot-input-container">
+                <input type="text" id="chatbot-input" placeholder="Type a message..." autocomplete="off">
+                <button id="chatbot-send" aria-label="Send message"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="portfolio new.js"></script>
+</body>
+
+</html>
