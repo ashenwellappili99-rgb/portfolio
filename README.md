@@ -4,8 +4,8 @@ Welcome to my personal portfolio! I am an undergraduate IT student specializing 
 
 
  ## Key Features
- Dynamic Dark Mode**: Seamlessly toggle between light and dark themes with persistent user preferences.
- Advanced Search System**: 
+ Dynamic Dark Mode: Seamlessly toggle between light and dark themes with persistent user preferences.
+ Advanced Search System: 
      Real-time search suggestions.
       Site-Wide Highlighting: Matches are instantly highlighted across the entire page for better visibility.
 - AI-Powered Chatbot: A custom-built virtual assistant that can answer questions about my skills, projects, and background.
@@ -13,7 +13,7 @@ Welcome to my personal portfolio! I am an undergraduate IT student specializing 
 - Interactive Map: Integrated Google Maps showing my current location in Matara, Sri Lanka.
 - Secure Login Entry: A premium login overlay for administrative access simulations.
 
----
+
 
 ## Tech Stack
 
@@ -22,7 +22,7 @@ Welcome to my personal portfolio! I am an undergraduate IT student specializing 
  **Icons**: Font Awesome 6.0
  **Logic**: Custom keyword-matching and DOM-traversal algorithms
 
----
+
 
 ##  Project Structure
 
@@ -41,7 +41,7 @@ I am currently a Year 1, Semester 2 student focusing on:
 - Advanced Python Programming
 - Machine Learning Fundamentals
 
----
+
 
 ##  Connect With Me
 
