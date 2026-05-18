@@ -50,5 +50,5 @@ I am currently a Year 1, Semester 2 student focusing on:
  **GitHub**: [@ashenwellappili99-rgb](https://github.com/ashenwellappili99-rgb)
 
 
-Developed with  by Ashen Wellappili
+Developed by Ashen Wellappili
 
