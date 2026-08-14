@@ -1,8 +1,8 @@
 import React from 'react';
 import { ThemeProvider } from './context/ThemeContext';
-import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { Skills } from './components/Skills';
+import { Certifications } from './components/Certifications';
 import { Projects } from './components/Projects';
 import { Timeline } from './components/Timeline';
 import { Contact } from './components/Contact';
@@ -12,10 +12,10 @@ export function App() {
     return (
         <ThemeProvider>
             <div className="app-container">
-                <Navbar />
-                <main>
+                <main style={{ paddingTop: '40px' }}>
                     <Hero />
                     <Skills />
+                    <Certifications />
                     <Projects />
                     <Timeline />
                     <Contact />
