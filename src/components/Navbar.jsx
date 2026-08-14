@@ -28,8 +28,8 @@ const searchableContent = [
         id: 'projects',
         title: 'Projects',
         category: 'Work',
-        content: 'Python Automation Tool, C++ Performance System, automation, algorithms, speed, memory, projects, portfolio',
-        preview: 'Python Automation Tool & C++ Performance System projects'
+        content: 'Coffee Shop Website, QuickFix Repair Shop System, Personal React Portfolio, C, C++, OOP, Object Oriented Programming, HTML, CSS, JavaScript, Web Development, projects',
+        preview: 'Coffee Shop Website, QuickFix Repair System (C/C++ OOP), and React Portfolio'
     },
     {
         id: 'contact',
