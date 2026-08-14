@@ -6,10 +6,6 @@
 
 A modern, responsive personal portfolio web application built with **React 19** and **Vite**, featuring technical skills, verified certifications, real-world projects, and an interactive academic journey.
 
-![Portfolio Preview](public/portfolio.jpg)
-
----
-
 ## 📌 Features
 
 - ⚛️ **Modern React 19 & Vite 8**: Ultra-fast build times and modular component architecture.
