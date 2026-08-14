@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useTheme } from '../context/ThemeContext';
-import { Sun, Moon, Search, X, Menu, MapPin, Lock } from 'lucide-react';
+import { Sun, Moon, Search, X, Menu, MapPin } from 'lucide-react';
 
 const searchableContent = [
     {
@@ -138,10 +138,6 @@ export const Navbar = ({ onOpenLogin }) => {
                         onClick={() => scrollToSection('contact')}
                     >
                         Contact
-                    </button>
-                    <button className="nav-page-link" onClick={onOpenLogin}>
-                        <Lock size={14} style={{ marginRight: 4, display: 'inline' }} />
-                        Login
                     </button>
                 </div>
 
