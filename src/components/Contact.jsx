@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Send, Check } from 'lucide-react';
+import { Send, Check } from 'lucide-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -105,19 +105,6 @@ export const Contact = () => {
                         </>
                     )}
                 </form>
-
-                <div className="map-wrapper">
-                    <iframe
-                        title="Matara Location Map"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63480.83770335606!2d80.511105!3d5.949635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae1391d3a0a1f9d%3A0x29673448db1bc908!2sMatara!5e0!3m2!1sen!2slk!4v1715504780000!5m2!1sen!2slk"
-                        width="100%"
-                        height="280"
-                        style={{ border: 0 }}
-                        allowFullScreen=""
-                        loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade"
-                    ></iframe>
-                </div>
             </div>
         </section>
     );
