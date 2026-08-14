@@ -31,37 +31,6 @@ A modern, responsive personal portfolio web application built with **React 19** 
 
 ---
 
-## 📂 Project Structure
-
-```text
-portfolio/
-├── public/
-│   ├── favicon.ico
-│   └── portfolio.jpg
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── Certifications.jsx
-│   │   ├── Contact.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Hero.jsx
-│   │   ├── Projects.jsx
-│   │   ├── Skills.jsx
-│   │   └── Timeline.jsx
-│   ├── context/
-│   │   └── ThemeContext.jsx
-│   ├── styles/
-│   │   └── index.css
-│   ├── App.css
-│   ├── App.jsx
-│   └── main.jsx
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
-```
-
----
 
 ## 🚀 Getting Started
 
