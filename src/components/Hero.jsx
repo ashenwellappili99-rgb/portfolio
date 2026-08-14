@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Sparkles } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import avatarImg from '../assets/portfolio.jpg';
 
 export const Hero = () => {
@@ -11,10 +11,6 @@ export const Hero = () => {
     return (
         <section id="hero" className="hero-section">
             <div className="hero-text">
-                <div className="hero-badge">
-                    <Sparkles size={14} style={{ display: 'inline', marginRight: 6, verticalAlign: 'middle' }} />
-                    AI & Software Engineering Student
-                </div>
                 <h1>
                     Hi, I'm <span>Ashen 👋</span>
                 </h1>
