@@ -5,7 +5,7 @@ export const Timeline = () => {
     return (
         <section id="education" className="section">
             <h2 className="section-title">Academic Journey</h2>
-            <p className="section-subtitle">My degree path and foundational computer science coursework.</p>
+            <p className="section-subtitle">My degree path and computer science coursework at ICBT Campus.</p>
 
             <div className="timeline">
                 <div className="timeline-item active">
@@ -15,10 +15,10 @@ export const Timeline = () => {
                         <p className="specialization">Specializing in Artificial Intelligence</p>
                         <p className="status">
                             <Calendar size={14} style={{ display: 'inline', marginRight: 4, verticalAlign: 'middle' }} />
-                            Current: Year 2, Semester 2 (2026)
+                            Current: Year 2, Semester 1 (2026)
                         </p>
                         <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem' }}>
-                            Diving deeper into Artificial Intelligence specialization, Machine Learning concepts, and advanced software design.
+                            Currently mastering Object Oriented Programming, Data Communication, Cyber Security Principles, User Experience & Design, Statistics, and Essentials in AI.
                         </p>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ export const Timeline = () => {
                         <h3>Year 1, Semester 1</h3>
                         <p className="date">Completed</p>
                         <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem' }}>
-                            Foundational programming in C & C++, Logic Design, and Computational Problem Solving.
+                            Computer Systems architecture, Information Systems, Programming Fundamentals, and Mathematics for IT.
                         </p>
                     </div>
                 </div>

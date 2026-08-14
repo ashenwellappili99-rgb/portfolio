@@ -5,7 +5,7 @@ const botResponses = {
     skills: "I am proficient in Python, C++, HTML, and CSS. I am currently specializing in Artificial Intelligence! 🤖 My main focus is on mastering Python libraries like NumPy and Pandas.",
     projects: "I have worked on several projects, including a Python automation tool for data processing and a high-performance C++ system. Check out the 'My Projects' section for more details! 🚀",
     expertise: "My expertise lies in Python development, particularly for AI and Machine Learning. I also have strong foundations in C++ and Web Development (React/HTML/CSS). 💻",
-    academic: "I am an undergraduate IT student specializing in AI, currently in Year 2, Semester 2! 🎓 I have completed Year 1 Semester 2 (Database Design & Development, System Analysis & Design, Web App Development, Discrete Maths, Communication Skills, Organizational Behaviour) and Year 1 Semester 1.",
+    academic: "I am an undergraduate IT student specializing in AI, currently in Year 2, Semester 1 at ICBT Campus! 🎓 Currently studying OOP, Data Communication, Cyber Security, UX/UI, Statistics, and Essentials in AI.",
     freelance: "Yes! I am always open to discussing new projects, collaborations, or freelance opportunities. Feel free to reach out via the contact form! 🤝",
     contact: "You can reach me at ashenwellappili99@gmail.com or via my LinkedIn and GitHub profiles. I'm always happy to connect! 📧",
     about: "I'm Ashen, an IT undergraduate with a passion for Artificial Intelligence. I love building structured, logical solutions and I'm constantly leveling up my skills in Python and ML. 👋",

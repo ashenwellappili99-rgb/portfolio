@@ -21,8 +21,8 @@ const searchableContent = [
         id: 'education',
         title: 'Academic Journey',
         category: 'Education',
-        content: 'BSc Information Technology, Artificial Intelligence, Year 2 Semester 2, IT1306 Database Design and Development, IT1307 System Analysis and Design, IT1308 Web Application Development, IT1309 Discrete Mathematics, IT1210 General English & Communication Skills, BM4213 Organizational Behaviour, Semester 1, C, C++, Logic Design, university, degree, coursework',
-        preview: 'BSc (Hons) IT (AI Specialization) - Currently in Year 2, Semester 2...'
+        content: 'BSc Information Technology, Artificial Intelligence, ICBT Campus, Year 2 Semester 1, Object Oriented Programming, Data Communication, Cyber Security Principles, User Experience and Design, Statistics, Essentials in AI, Database Design, System Analysis, Web Application Development, Discrete Mathematics, Computer Systems, Information Systems, Programming Fundamentals, Mathematics for IT',
+        preview: 'BSc (Hons) IT (AI Specialization) at ICBT Campus - Currently in Year 2, Semester 1...'
     },
     {
         id: 'projects',
