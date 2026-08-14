@@ -29,7 +29,7 @@ export const Timeline = () => {
                         <h3>Year 1, Semester 2</h3>
                         <p className="date">Completed</p>
                         <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem' }}>
-                            Gained practical knowledge in Relational Database Design & SQL, System Analysis and Software Architecture, Modern Web Application Development, Discrete Mathematics, Professional English & Communication, and Organizational Behaviour.
+                            Database Design and Development, System Analysis and Design, Web Application Development, Discrete Mathematics, and Organizational Behaviour.
                         </p>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ export const Timeline = () => {
                         <h3>Year 1, Semester 1</h3>
                         <p className="date">Completed</p>
                         <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem' }}>
-                            Built foundational knowledge in C and C++ programming, Logic Design, and Computational Problem Solving.
+                            Foundational programming in C & C++, Logic Design, and Computational Problem Solving.
                         </p>
                     </div>
                 </div>
