@@ -21,8 +21,8 @@ const searchableContent = [
         id: 'education',
         title: 'Academic Journey',
         category: 'Education',
-        content: 'BSc Information Technology, Artificial Intelligence, Web Application Development, Advanced Python Programming, Semester 1, Semester 2, Logic Design, C, C++, university, degree, coursework, learning',
-        preview: 'BSc (Hons) in Information Technology with specialization in AI...'
+        content: 'BSc Information Technology, Artificial Intelligence, Year 2 Semester 2, IT1306 Database Design and Development, IT1307 System Analysis and Design, IT1308 Web Application Development, IT1309 Discrete Mathematics, IT1210 General English & Communication Skills, BM4213 Organizational Behaviour, Semester 1, C, C++, Logic Design, university, degree, coursework',
+        preview: 'BSc (Hons) IT (AI Specialization) - Currently in Year 2, Semester 2...'
     },
     {
         id: 'projects',
