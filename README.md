@@ -6,9 +6,6 @@
 
 A modern, responsive personal portfolio web application built with **React 19** and **Vite**, featuring technical skills, verified certifications, real-world projects, and an interactive academic journey.
 
-![Portfolio Preview](public/portfolio.jpg)
-
----
 
 ## 📌 Features
 
@@ -35,37 +32,6 @@ A modern, responsive personal portfolio web application built with **React 19** 
 
 ---
 
-## 📂 Project Structure
-
-```text
-portfolio/
-├── public/
-│   ├── favicon.ico
-│   └── portfolio.jpg
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── Certifications.jsx
-│   │   ├── Contact.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Hero.jsx
-│   │   ├── Projects.jsx
-│   │   ├── Skills.jsx
-│   │   └── Timeline.jsx
-│   ├── context/
-│   │   └── ThemeContext.jsx
-│   ├── styles/
-│   │   └── index.css
-│   ├── App.css
-│   ├── App.jsx
-│   └── main.jsx
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
-```
-
----
 
 ## 🚀 Getting Started
 
@@ -120,7 +86,6 @@ Ensure you have [Node.js](https://nodejs.org/) installed (v18+ recommended).
 
 ## 📬 Contact & Links
 
-- 🌐 **GitHub**: [ashenwellappili](https://github.com/ashenwellappili)
 - 💼 **LinkedIn**: [Ashen Wellappili](https://www.linkedin.com/in/ashen-wellappili/)
 - ✉️ **Email**: [ashenwellappili99@gmail.com](mailto:ashenwellappili99@gmail.com)
 
