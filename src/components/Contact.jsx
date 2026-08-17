@@ -44,7 +44,7 @@ export const Contact = () => {
                         <FontAwesomeIcon icon={faGithub} />
                     </div>
                     <a
-                        href="https://github.com/ashenwellappili99-rgb"
+                        href="https://github.com/ashenwellappili"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

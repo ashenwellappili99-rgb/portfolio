@@ -15,7 +15,7 @@ A modern, responsive personal portfolio web application built with **React 19** 
 - ⚛️ **Modern React 19 & Vite 8**: Ultra-fast build times and modular component architecture.
 - 🎨 **Dynamic Theme System**: Seamless Light/Dark mode toggling using React Context and CSS custom variables.
 - 📜 **Verified Certifications & Badges**: Embedded **Microsoft AI Skills Fest 2026** badge with direct Credly verification link.
-- 💻 **Project Showcase**: Highlights key projects including the Coffee Shop Web App, QuickFix Repair System (C/C++ OOP), and Personal React Portfolio.
+- 💻 **Project Showcase**: Highlights key projects including the Apec Ardent Immigration Company Website (Web Development - Year 1, Sem 2), QuickFix Repair System (Programming Fundamentals C/C++ OOP - Year 1, Sem 1), and Personal React Portfolio.
 - 🎓 **Academic Journey**: Detailed interactive timeline showcasing IT degree specialization in Artificial Intelligence at ICBT Campus.
 - 📱 **Fully Responsive Layout**: Mobile-first design optimized for desktop, tablet, and mobile displays.
 - ⚡ **Code Quality**: Linting setup with Oxlint for clean code standards.
@@ -77,7 +77,7 @@ Ensure you have [Node.js](https://nodejs.org/) installed (v18+ recommended).
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/ashenwellappili99-rgb/portfolio.git
+   git clone https://github.com/ashenwellappili/portfolio.git
    cd portfolio
    ```
 
@@ -120,7 +120,7 @@ Ensure you have [Node.js](https://nodejs.org/) installed (v18+ recommended).
 
 ## 📬 Contact & Links
 
-- 🌐 **GitHub**: [ashenwellappili99-rgb](https://github.com/ashenwellappili99-rgb)
+- 🌐 **GitHub**: [ashenwellappili](https://github.com/ashenwellappili)
 - 💼 **LinkedIn**: [Ashen Wellappili](https://www.linkedin.com/in/ashen-wellappili/)
 - ✉️ **Email**: [ashenwellappili99@gmail.com](mailto:ashenwellappili99@gmail.com)
 
